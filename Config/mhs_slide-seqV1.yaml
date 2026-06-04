@@ -1,0 +1,23 @@
+data:
+  dataset: MHSS         
+  k_cutoff: 12          
+  top_genes: 3000       
+model:
+  dic_hidden: 64
+  feat_hidden1: 64
+  feat_hidden2: 32
+  gcn_hidden: 64
+  latent_dim: 16
+  mask_rate: 0.5
+  momentum_rate: 0.
+  p_drop: 0.2
+  project_dim: 32
+  t: 2
+seed: 2026
+train:
+  epochs: 300           
+  t_step: 50            
+  topk_neighs: 80       
+  w_mean: 0.1          
+  w_recon: 0.6         
+  w_tri: 0.1           
